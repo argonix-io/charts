@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  argonix-crd:
+  - apiVersion: v2
+    appVersion: 0.1.3
+    created: "2026-03-06T12:11:45.46959+01:00"
+    description: A Helm chart for the Argonix Kubernetes CRD controller
+    digest: 2bac54e3d2711821a7a0174151ebba1b1531daa27eb0963b79a7bc8dc91191cc
+    home: https://github.com/argonix-io/kubernetes-crd
+    keywords:
+    - argonix
+    - monitoring
+    - crd
+    - operator
+    maintainers:
+    - name: Argonix
+      url: https://argonix.io
+    name: argonix-crd
+    sources:
+    - https://github.com/argonix-io/kubernetes-crd
+    type: application
+    urls:
+    - https://charts.argonix.io/argonix-crd-0.1.3.tgz
+    version: 0.1.3
+generated: "2026-03-06T12:11:45.46895+01:00"
