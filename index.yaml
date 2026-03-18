@@ -3,7 +3,26 @@ entries:
   argonix-api:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-03-18T18:14:38.036699+01:00"
+    created: "2026-03-18T18:15:58.195184+01:00"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 16.4.1
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 20.6.2
+    description: Argonix - AI-powered monitoring, testing & incident management platform
+    digest: a8fae912eb0b325592c93e8ca594c3cee81d2620e9d05a38353356c697d5c6a5
+    name: argonix-api
+    type: application
+    urls:
+    - https://charts.argonix.io/argonix-api-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-03-18T18:15:58.187658+01:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -22,7 +41,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-03-18T18:14:38.028882+01:00"
+    created: "2026-03-18T18:15:58.179737+01:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -41,7 +60,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-03-18T18:14:38.02098+01:00"
+    created: "2026-03-18T18:15:58.171531+01:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -60,7 +79,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-03-18T18:14:38.012486+01:00"
+    created: "2026-03-18T18:15:58.163452+01:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -79,7 +98,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-03-18T18:14:38.004638+01:00"
+    created: "2026-03-18T18:15:58.155273+01:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -99,7 +118,7 @@ entries:
   argonix-crd:
   - apiVersion: v2
     appVersion: 0.1.6
-    created: "2026-03-18T18:14:38.037729+01:00"
+    created: "2026-03-18T18:15:58.196562+01:00"
     description: A Helm chart for the Argonix Kubernetes CRD controller
     digest: 0caf66a18684326d322a1841b53fefdcc649e6e67e625476e939fbaca34beca1
     home: https://github.com/argonix-io/kubernetes-crd
@@ -120,7 +139,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: 0.1.3
-    created: "2026-03-18T18:14:38.037266+01:00"
+    created: "2026-03-18T18:15:58.195719+01:00"
     description: A Helm chart for the Argonix Kubernetes CRD controller
     digest: 52da75a39ff1caabd7c83ac05283bababb24df9e01df1431f21c4067f6fe2b16
     home: https://github.com/argonix-io/kubernetes-crd
@@ -139,4 +158,4 @@ entries:
     urls:
     - https://charts.argonix.io/argonix-crd-0.1.3.tgz
     version: 0.1.3
-generated: "2026-03-18T18:14:37.995411+01:00"
+generated: "2026-03-18T18:15:58.146406+01:00"
