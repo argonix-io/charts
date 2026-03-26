@@ -3,7 +3,7 @@ entries:
   argonix-api:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-03-26T13:58:17.515639696Z"
+    created: "2026-03-26T14:35:16.388715688Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -22,7 +22,7 @@ entries:
     version: 0.1.13
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-03-26T13:58:17.503526676Z"
+    created: "2026-03-26T14:35:16.376695565Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -41,7 +41,7 @@ entries:
     version: 0.1.12
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-03-26T13:58:17.489768567Z"
+    created: "2026-03-26T14:35:16.364967042Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -60,7 +60,7 @@ entries:
     version: 0.1.11
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-03-26T13:58:17.477438482Z"
+    created: "2026-03-26T14:35:16.352813981Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -79,7 +79,7 @@ entries:
     version: 0.1.10
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-03-26T13:58:17.683824618Z"
+    created: "2026-03-26T14:35:16.481027818Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -98,7 +98,7 @@ entries:
     version: 0.1.9
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-03-26T13:58:17.670299084Z"
+    created: "2026-03-26T14:35:16.469911698Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -117,7 +117,7 @@ entries:
     version: 0.1.8
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-03-26T13:58:17.657591413Z"
+    created: "2026-03-26T14:35:16.458422927Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -136,7 +136,7 @@ entries:
     version: 0.1.7
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-03-26T13:58:17.635836486Z"
+    created: "2026-03-26T14:35:16.446780942Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -155,7 +155,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-03-26T13:58:17.60191229Z"
+    created: "2026-03-26T14:35:16.435873401Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -174,7 +174,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-03-26T13:58:17.572698664Z"
+    created: "2026-03-26T14:35:16.424103214Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -193,7 +193,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-03-26T13:58:17.551939995Z"
+    created: "2026-03-26T14:35:16.412152595Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -212,7 +212,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-03-26T13:58:17.531421784Z"
+    created: "2026-03-26T14:35:16.400975757Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -231,7 +231,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-03-26T13:58:17.465618599Z"
+    created: "2026-03-26T14:35:16.341910924Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -250,7 +250,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-03-26T13:58:17.453419751Z"
+    created: "2026-03-26T14:35:16.330229608Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -269,8 +269,29 @@ entries:
     version: 0.1.0
   argonix-crd:
   - apiVersion: v2
+    appVersion: 0.1.11
+    created: "2026-03-26T14:35:16.482160664Z"
+    description: A Helm chart for the Argonix Kubernetes CRD controller
+    digest: cf56071d7fa385d500d7ae5a8e6279ed07e02d98bf29578d597ad74ccfe1eb0c
+    home: https://github.com/argonix-io/kubernetes-crd
+    keywords:
+    - argonix
+    - monitoring
+    - crd
+    - operator
+    maintainers:
+    - name: Argonix
+      url: https://argonix.io
+    name: argonix-crd
+    sources:
+    - https://github.com/argonix-io/kubernetes-crd
+    type: application
+    urls:
+    - https://charts.argonix.io/argonix-crd-0.1.11.tgz
+    version: 0.1.11
+  - apiVersion: v2
     appVersion: 0.1.10
-    created: "2026-03-26T13:58:17.684391846Z"
+    created: "2026-03-26T14:35:16.48160152Z"
     description: A Helm chart for the Argonix Kubernetes CRD controller
     digest: ed898dad23be3b24816041b57b1e6c7292088368c47359b606e61a60ec46e613
     home: https://github.com/argonix-io/kubernetes-crd
@@ -291,7 +312,7 @@ entries:
     version: 0.1.10
   - apiVersion: v2
     appVersion: 0.1.9
-    created: "2026-03-26T13:58:17.685741264Z"
+    created: "2026-03-26T14:35:16.483601164Z"
     description: A Helm chart for the Argonix Kubernetes CRD controller
     digest: bc451e74580c7a96193cee34d9f219041fbd4a8cb7e61acf01911cff3a098b5a
     home: https://github.com/argonix-io/kubernetes-crd
@@ -312,7 +333,7 @@ entries:
     version: 0.1.9
   - apiVersion: v2
     appVersion: 0.1.6
-    created: "2026-03-26T13:58:17.685296384Z"
+    created: "2026-03-26T14:35:16.483093426Z"
     description: A Helm chart for the Argonix Kubernetes CRD controller
     digest: 0caf66a18684326d322a1841b53fefdcc649e6e67e625476e939fbaca34beca1
     home: https://github.com/argonix-io/kubernetes-crd
@@ -333,7 +354,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: 0.1.3
-    created: "2026-03-26T13:58:17.684834412Z"
+    created: "2026-03-26T14:35:16.482630341Z"
     description: A Helm chart for the Argonix Kubernetes CRD controller
     digest: 52da75a39ff1caabd7c83ac05283bababb24df9e01df1431f21c4067f6fe2b16
     home: https://github.com/argonix-io/kubernetes-crd
@@ -352,4 +373,4 @@ entries:
     urls:
     - https://charts.argonix.io/argonix-crd-0.1.3.tgz
     version: 0.1.3
-generated: "2026-03-26T13:58:17.439534595Z"
+generated: "2026-03-26T14:35:16.319101405Z"
