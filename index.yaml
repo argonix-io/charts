@@ -3,7 +3,7 @@ entries:
   argonix-api:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-08-18T21:17:12.024612264Z"
+    created: "2026-08-18T21:44:31.107009711Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -22,7 +22,7 @@ entries:
     version: 0.1.30
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-08-18T21:17:11.99740678Z"
+    created: "2026-08-18T21:44:31.090342132Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -41,7 +41,7 @@ entries:
     version: 0.1.29
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-08-18T21:17:11.984914103Z"
+    created: "2026-08-18T21:44:31.079748446Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -60,7 +60,7 @@ entries:
     version: 0.1.28
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-08-18T21:17:11.971173302Z"
+    created: "2026-08-18T21:44:31.069728146Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -79,7 +79,7 @@ entries:
     version: 0.1.27
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-08-18T21:17:11.956351983Z"
+    created: "2026-08-18T21:44:31.06023783Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -98,7 +98,7 @@ entries:
     version: 0.1.26
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-08-18T21:17:11.943276869Z"
+    created: "2026-08-18T21:44:31.045934261Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -117,7 +117,7 @@ entries:
     version: 0.1.25
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-08-18T21:17:11.928875154Z"
+    created: "2026-08-18T21:44:31.037146719Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -136,7 +136,7 @@ entries:
     version: 0.1.24
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-08-18T21:17:11.916488365Z"
+    created: "2026-08-18T21:44:31.027545352Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -155,7 +155,7 @@ entries:
     version: 0.1.23
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-08-18T21:17:11.903297071Z"
+    created: "2026-08-18T21:44:31.018463458Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -174,7 +174,7 @@ entries:
     version: 0.1.22
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-08-18T21:17:11.888807925Z"
+    created: "2026-08-18T21:44:31.009933377Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -193,7 +193,7 @@ entries:
     version: 0.1.21
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-08-18T21:17:11.87622178Z"
+    created: "2026-08-18T21:44:30.996185563Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -212,7 +212,7 @@ entries:
     version: 0.1.20
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-08-18T21:17:11.836015634Z"
+    created: "2026-08-18T21:44:30.968860384Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -231,7 +231,7 @@ entries:
     version: 0.1.19
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-08-18T21:17:11.814676112Z"
+    created: "2026-08-18T21:44:30.960570872Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -250,7 +250,7 @@ entries:
     version: 0.1.18
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-08-18T21:17:11.801394694Z"
+    created: "2026-08-18T21:44:30.951535797Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -269,7 +269,7 @@ entries:
     version: 0.1.17
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-08-18T21:17:11.787179415Z"
+    created: "2026-08-18T21:44:30.942065584Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -288,7 +288,7 @@ entries:
     version: 0.1.16
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-08-18T21:17:11.774402507Z"
+    created: "2026-08-18T21:44:30.933091497Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -307,7 +307,7 @@ entries:
     version: 0.1.15
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-08-18T21:17:11.760030005Z"
+    created: "2026-08-18T21:44:30.92341342Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -326,7 +326,7 @@ entries:
     version: 0.1.14
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-08-18T21:17:11.74689969Z"
+    created: "2026-08-18T21:44:30.915245769Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -345,7 +345,7 @@ entries:
     version: 0.1.13
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-08-18T21:17:11.734932275Z"
+    created: "2026-08-18T21:44:30.90695564Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -364,7 +364,7 @@ entries:
     version: 0.1.12
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-08-18T21:17:11.721777173Z"
+    created: "2026-08-18T21:44:30.897948872Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -383,7 +383,7 @@ entries:
     version: 0.1.11
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-08-18T21:17:11.707709005Z"
+    created: "2026-08-18T21:44:30.887902072Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -402,7 +402,7 @@ entries:
     version: 0.1.10
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-08-18T21:17:12.102274998Z"
+    created: "2026-08-18T21:44:31.159095724Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -421,7 +421,7 @@ entries:
     version: 0.1.9
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-08-18T21:17:12.089316348Z"
+    created: "2026-08-18T21:44:31.150941053Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -440,7 +440,7 @@ entries:
     version: 0.1.8
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-08-18T21:17:12.075115632Z"
+    created: "2026-08-18T21:44:31.142100464Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -459,7 +459,7 @@ entries:
     version: 0.1.7
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-08-18T21:17:12.063248616Z"
+    created: "2026-08-18T21:44:31.132941405Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -478,7 +478,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-08-18T21:17:12.050217448Z"
+    created: "2026-08-18T21:44:31.124995822Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -497,7 +497,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-08-18T21:17:12.036327714Z"
+    created: "2026-08-18T21:44:31.116442511Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -516,7 +516,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-08-18T21:17:12.011365456Z"
+    created: "2026-08-18T21:44:31.098603271Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -535,7 +535,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-08-18T21:17:11.858324196Z"
+    created: "2026-08-18T21:44:30.981904944Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -554,7 +554,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-08-18T21:17:11.695767789Z"
+    created: "2026-08-18T21:44:30.879048702Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -573,7 +573,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-08-18T21:17:11.68189517Z"
+    created: "2026-08-18T21:44:30.869212397Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -593,7 +593,7 @@ entries:
   argonix-crd:
   - apiVersion: v2
     appVersion: 0.1.20
-    created: "2026-08-18T21:17:12.105734422Z"
+    created: "2026-08-18T21:44:31.162517864Z"
     description: A Helm chart for the Argonix Kubernetes CRD controller
     digest: c291a77aba44ed39ce56f3567102146a496f04c8da7cd3cfa53678d9e22f9322
     home: https://github.com/argonix-io/kubernetes-crd
@@ -614,7 +614,7 @@ entries:
     version: 0.1.20
   - apiVersion: v2
     appVersion: 0.1.14
-    created: "2026-08-18T21:17:12.104961502Z"
+    created: "2026-08-18T21:44:31.16200423Z"
     description: A Helm chart for the Argonix Kubernetes CRD controller
     digest: 10d148ab1ee3a8d3d3f5a88dc9519ed61d7052b2b838bf7512c7258c83f4e583
     home: https://github.com/argonix-io/kubernetes-crd
@@ -635,7 +635,7 @@ entries:
     version: 0.1.14
   - apiVersion: v2
     appVersion: 0.1.13
-    created: "2026-08-18T21:17:12.104447608Z"
+    created: "2026-08-18T21:44:31.161667198Z"
     description: A Helm chart for the Argonix Kubernetes CRD controller
     digest: 8c7fb6afe7b7bb57c5884610c7f8e7aca089ebf9db3c609a95badec55a286881
     home: https://github.com/argonix-io/kubernetes-crd
@@ -656,7 +656,7 @@ entries:
     version: 0.1.13
   - apiVersion: v2
     appVersion: 0.1.12
-    created: "2026-08-18T21:17:12.103909768Z"
+    created: "2026-08-18T21:44:31.161300047Z"
     description: A Helm chart for the Argonix Kubernetes CRD controller
     digest: d30a4f0aa7ef6c4baed36db8381aa34b9d98a9be6cf5a85afae9589545b6ebdc
     home: https://github.com/argonix-io/kubernetes-crd
@@ -677,7 +677,7 @@ entries:
     version: 0.1.12
   - apiVersion: v2
     appVersion: 0.1.11
-    created: "2026-08-18T21:17:12.103388493Z"
+    created: "2026-08-18T21:44:31.160557074Z"
     description: A Helm chart for the Argonix Kubernetes CRD controller
     digest: cf56071d7fa385d500d7ae5a8e6279ed07e02d98bf29578d597ad74ccfe1eb0c
     home: https://github.com/argonix-io/kubernetes-crd
@@ -698,7 +698,7 @@ entries:
     version: 0.1.11
   - apiVersion: v2
     appVersion: 0.1.10
-    created: "2026-08-18T21:17:12.102842081Z"
+    created: "2026-08-18T21:44:31.159834963Z"
     description: A Helm chart for the Argonix Kubernetes CRD controller
     digest: ed898dad23be3b24816041b57b1e6c7292088368c47359b606e61a60ec46e613
     home: https://github.com/argonix-io/kubernetes-crd
@@ -719,7 +719,7 @@ entries:
     version: 0.1.10
   - apiVersion: v2
     appVersion: 0.1.9
-    created: "2026-08-18T21:17:12.108503099Z"
+    created: "2026-08-18T21:44:31.163428539Z"
     description: A Helm chart for the Argonix Kubernetes CRD controller
     digest: bc451e74580c7a96193cee34d9f219041fbd4a8cb7e61acf01911cff3a098b5a
     home: https://github.com/argonix-io/kubernetes-crd
@@ -740,7 +740,7 @@ entries:
     version: 0.1.9
   - apiVersion: v2
     appVersion: 0.1.6
-    created: "2026-08-18T21:17:12.10736737Z"
+    created: "2026-08-18T21:44:31.16313233Z"
     description: A Helm chart for the Argonix Kubernetes CRD controller
     digest: 0caf66a18684326d322a1841b53fefdcc649e6e67e625476e939fbaca34beca1
     home: https://github.com/argonix-io/kubernetes-crd
@@ -761,7 +761,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: 0.1.3
-    created: "2026-08-18T21:17:12.106184641Z"
+    created: "2026-08-18T21:44:31.16280391Z"
     description: A Helm chart for the Argonix Kubernetes CRD controller
     digest: 52da75a39ff1caabd7c83ac05283bababb24df9e01df1431f21c4067f6fe2b16
     home: https://github.com/argonix-io/kubernetes-crd
@@ -782,8 +782,23 @@ entries:
     version: 0.1.3
   argonix-sensor:
   - apiVersion: v2
+    appVersion: 0.2.0
+    created: "2026-08-18T21:44:31.193264919Z"
+    dependencies:
+    - condition: tetragon.enabled
+      name: tetragon
+      repository: https://helm.cilium.io/
+      version: 1.7.0
+    description: Provider-neutral Argonix runtime network sensor powered by Tetragon
+    digest: e91718f74777f8c23ae5351ff1cf5ecd2f76202e52be789db8e53132fd3239d0
+    name: argonix-sensor
+    type: application
+    urls:
+    - https://charts.argonix.io/argonix-sensor-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
     appVersion: 0.1.7
-    created: "2026-08-18T21:17:12.146190699Z"
+    created: "2026-08-18T21:44:31.191098517Z"
     dependencies:
     - condition: tetragon.enabled
       name: tetragon
@@ -798,7 +813,7 @@ entries:
     version: 0.1.9
   - apiVersion: v2
     appVersion: 0.1.6
-    created: "2026-08-18T21:17:12.143237508Z"
+    created: "2026-08-18T21:44:31.18809563Z"
     dependencies:
     - condition: tetragon.enabled
       name: tetragon
@@ -813,7 +828,7 @@ entries:
     version: 0.1.8
   - apiVersion: v2
     appVersion: 0.1.5
-    created: "2026-08-18T21:17:12.13895522Z"
+    created: "2026-08-18T21:44:31.185991369Z"
     dependencies:
     - condition: tetragon.enabled
       name: tetragon
@@ -828,7 +843,7 @@ entries:
     version: 0.1.7
   - apiVersion: v2
     appVersion: 0.1.4
-    created: "2026-08-18T21:17:12.135987327Z"
+    created: "2026-08-18T21:44:31.183037442Z"
     dependencies:
     - condition: tetragon.enabled
       name: tetragon
@@ -843,7 +858,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: 0.1.3
-    created: "2026-08-18T21:17:12.131668805Z"
+    created: "2026-08-18T21:44:31.180926641Z"
     dependencies:
     - condition: tetragon.enabled
       name: tetragon
@@ -858,7 +873,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 0.1.2
-    created: "2026-08-18T21:17:12.128751347Z"
+    created: "2026-08-18T21:44:31.17774097Z"
     dependencies:
     - condition: tetragon.enabled
       name: tetragon
@@ -873,7 +888,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2026-08-18T21:17:12.124100902Z"
+    created: "2026-08-18T21:44:31.175672059Z"
     dependencies:
     - condition: tetragon.enabled
       name: tetragon
@@ -888,7 +903,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2026-08-18T21:17:12.121234049Z"
+    created: "2026-08-18T21:44:31.172391734Z"
     dependencies:
     - condition: tetragon.enabled
       name: tetragon
@@ -903,7 +918,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2026-08-18T21:17:12.116406521Z"
+    created: "2026-08-18T21:44:31.169656189Z"
     dependencies:
     - condition: tetragon.enabled
       name: tetragon
@@ -918,7 +933,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2026-08-18T21:17:12.11161781Z"
+    created: "2026-08-18T21:44:31.166890455Z"
     dependencies:
     - condition: tetragon.enabled
       name: tetragon
@@ -931,4 +946,4 @@ entries:
     urls:
     - https://charts.argonix.io/argonix-sensor-0.1.0.tgz
     version: 0.1.0
-generated: "2026-08-18T21:17:11.669394091Z"
+generated: "2026-08-18T21:44:30.86037662Z"
