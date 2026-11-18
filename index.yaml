@@ -2,8 +2,27 @@ apiVersion: v1
 entries:
   argonix-api:
   - apiVersion: v2
+    appVersion: 0.8.7
+    created: "2026-11-18T11:40:16.065104088Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 16.4.1
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 20.6.2
+    description: Argonix - AI-powered monitoring, testing & incident management platform
+    digest: 3eeb17d1bc1f22073615551e61ceef4e497fec4e3b758abcbc7689fd9cae346f
+    name: argonix-api
+    type: application
+    urls:
+    - https://charts.argonix.io/argonix-api-0.8.7.tgz
+    version: 0.8.7
+  - apiVersion: v2
     appVersion: 0.8.6
-    created: "2026-11-17T18:02:53.794316268Z"
+    created: "2026-11-18T11:40:16.047191394Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -22,7 +41,7 @@ entries:
     version: 0.8.6
   - apiVersion: v2
     appVersion: 0.8.5
-    created: "2026-11-17T18:02:53.774048401Z"
+    created: "2026-11-18T11:40:16.031709356Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -41,7 +60,7 @@ entries:
     version: 0.8.5
   - apiVersion: v2
     appVersion: 0.8.4
-    created: "2026-11-17T18:02:53.758446754Z"
+    created: "2026-11-18T11:40:16.015526243Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -60,7 +79,7 @@ entries:
     version: 0.8.4
   - apiVersion: v2
     appVersion: 0.8.3
-    created: "2026-11-17T18:02:53.741144512Z"
+    created: "2026-11-18T11:40:15.997887018Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -79,7 +98,7 @@ entries:
     version: 0.8.3
   - apiVersion: v2
     appVersion: 0.8.1
-    created: "2026-11-17T18:02:53.726737371Z"
+    created: "2026-11-18T11:40:15.983061807Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -98,7 +117,7 @@ entries:
     version: 0.8.1
   - apiVersion: v2
     appVersion: 0.8.0
-    created: "2026-11-17T18:02:53.710524986Z"
+    created: "2026-11-18T11:40:15.966641637Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -117,7 +136,7 @@ entries:
     version: 0.8.0
   - apiVersion: v2
     appVersion: 0.7.9
-    created: "2026-11-17T18:02:53.694970427Z"
+    created: "2026-11-18T11:40:15.948723364Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -136,7 +155,7 @@ entries:
     version: 0.7.9
   - apiVersion: v2
     appVersion: 0.7.8
-    created: "2026-11-17T18:02:53.680226731Z"
+    created: "2026-11-18T11:40:15.93334524Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -155,7 +174,7 @@ entries:
     version: 0.7.8
   - apiVersion: v2
     appVersion: 0.7.6
-    created: "2026-11-17T18:02:53.664009577Z"
+    created: "2026-11-18T11:40:15.915341978Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -174,7 +193,7 @@ entries:
     version: 0.7.6
   - apiVersion: v2
     appVersion: 0.7.5
-    created: "2026-11-17T18:02:53.64865984Z"
+    created: "2026-11-18T11:40:15.900157822Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -193,7 +212,7 @@ entries:
     version: 0.7.5
   - apiVersion: v2
     appVersion: 0.7.4
-    created: "2026-11-17T18:02:53.633331375Z"
+    created: "2026-11-18T11:40:15.884049722Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -212,7 +231,7 @@ entries:
     version: 0.7.4
   - apiVersion: v2
     appVersion: 0.7.3
-    created: "2026-11-17T18:02:53.617632907Z"
+    created: "2026-11-18T11:40:15.862766483Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -231,7 +250,7 @@ entries:
     version: 0.7.3
   - apiVersion: v2
     appVersion: 0.7.2
-    created: "2026-11-17T18:02:53.601600739Z"
+    created: "2026-11-18T11:40:15.847651087Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -250,7 +269,7 @@ entries:
     version: 0.7.2
   - apiVersion: v2
     appVersion: 0.7.1
-    created: "2026-11-17T18:02:53.586204667Z"
+    created: "2026-11-18T11:40:15.830724754Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -269,7 +288,7 @@ entries:
     version: 0.7.1
   - apiVersion: v2
     appVersion: 0.7.0
-    created: "2026-11-17T18:02:53.569037885Z"
+    created: "2026-11-18T11:40:15.815000237Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -288,7 +307,7 @@ entries:
     version: 0.7.0
   - apiVersion: v2
     appVersion: 0.6.9
-    created: "2026-11-17T18:02:53.554878365Z"
+    created: "2026-11-18T11:40:15.800386495Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -307,7 +326,7 @@ entries:
     version: 0.6.9
   - apiVersion: v2
     appVersion: 0.6.8
-    created: "2026-11-17T18:02:53.539160965Z"
+    created: "2026-11-18T11:40:15.783909508Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -326,7 +345,7 @@ entries:
     version: 0.6.8
   - apiVersion: v2
     appVersion: 0.6.7
-    created: "2026-11-17T18:02:53.523726218Z"
+    created: "2026-11-18T11:40:15.768310407Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -345,7 +364,7 @@ entries:
     version: 0.6.7
   - apiVersion: v2
     appVersion: 0.6.6
-    created: "2026-11-17T18:02:53.509847921Z"
+    created: "2026-11-18T11:40:15.753686457Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -364,7 +383,7 @@ entries:
     version: 0.6.6
   - apiVersion: v2
     appVersion: 0.6.5
-    created: "2026-11-17T18:02:53.494314663Z"
+    created: "2026-11-18T11:40:15.737836755Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -383,7 +402,7 @@ entries:
     version: 0.6.5
   - apiVersion: v2
     appVersion: 0.6.4
-    created: "2026-11-17T18:02:53.479363921Z"
+    created: "2026-11-18T11:40:15.720833094Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -402,7 +421,7 @@ entries:
     version: 0.6.4
   - apiVersion: v2
     appVersion: 0.6.3
-    created: "2026-11-17T18:02:53.46555958Z"
+    created: "2026-11-18T11:40:15.706050394Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -421,7 +440,7 @@ entries:
     version: 0.6.3
   - apiVersion: v2
     appVersion: 0.6.2
-    created: "2026-11-17T18:02:53.450488292Z"
+    created: "2026-11-18T11:40:15.684453966Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -440,7 +459,7 @@ entries:
     version: 0.6.2
   - apiVersion: v2
     appVersion: 0.6.1
-    created: "2026-11-17T18:02:53.434207662Z"
+    created: "2026-11-18T11:40:15.663148156Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -459,7 +478,7 @@ entries:
     version: 0.6.1
   - apiVersion: v2
     appVersion: 0.6.0
-    created: "2026-11-17T18:02:53.420667365Z"
+    created: "2026-11-18T11:40:15.642589856Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -478,7 +497,7 @@ entries:
     version: 0.6.0
   - apiVersion: v2
     appVersion: 0.5.9
-    created: "2026-11-17T18:02:53.405559929Z"
+    created: "2026-11-18T11:40:15.627276367Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -497,7 +516,7 @@ entries:
     version: 0.5.9
   - apiVersion: v2
     appVersion: 0.5.8
-    created: "2026-11-17T18:02:53.389008905Z"
+    created: "2026-11-18T11:40:15.609445699Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -516,7 +535,7 @@ entries:
     version: 0.5.8
   - apiVersion: v2
     appVersion: 0.5.6
-    created: "2026-11-17T18:02:53.375433494Z"
+    created: "2026-11-18T11:40:15.595223875Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -535,7 +554,7 @@ entries:
     version: 0.5.6
   - apiVersion: v2
     appVersion: 0.5.5
-    created: "2026-11-17T18:02:53.361127461Z"
+    created: "2026-11-18T11:40:15.579709215Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -554,7 +573,7 @@ entries:
     version: 0.5.5
   - apiVersion: v2
     appVersion: 0.5.4
-    created: "2026-11-17T18:02:53.344552953Z"
+    created: "2026-11-18T11:40:15.562308207Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -573,7 +592,7 @@ entries:
     version: 0.5.4
   - apiVersion: v2
     appVersion: 0.5.3
-    created: "2026-11-17T18:02:53.331012915Z"
+    created: "2026-11-18T11:40:15.547313577Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -592,7 +611,7 @@ entries:
     version: 0.5.3
   - apiVersion: v2
     appVersion: 0.5.2
-    created: "2026-11-17T18:02:53.316374613Z"
+    created: "2026-11-18T11:40:15.529864538Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -611,7 +630,7 @@ entries:
     version: 0.5.2
   - apiVersion: v2
     appVersion: 0.5.1
-    created: "2026-11-17T18:02:53.299990972Z"
+    created: "2026-11-18T11:40:15.515318904Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -630,7 +649,7 @@ entries:
     version: 0.5.1
   - apiVersion: v2
     appVersion: 0.5.0
-    created: "2026-11-17T18:02:53.286307397Z"
+    created: "2026-11-18T11:40:15.500748373Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -649,7 +668,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:53.27179529Z"
+    created: "2026-11-18T11:40:15.485555467Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -668,7 +687,7 @@ entries:
     version: 0.4.8
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:53.255548764Z"
+    created: "2026-11-18T11:40:15.469245627Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -687,7 +706,7 @@ entries:
     version: 0.4.7
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:53.241783569Z"
+    created: "2026-11-18T11:40:15.453918782Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -706,7 +725,7 @@ entries:
     version: 0.4.6
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:53.227118207Z"
+    created: "2026-11-18T11:40:15.438528062Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -725,7 +744,7 @@ entries:
     version: 0.4.5
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:53.211009775Z"
+    created: "2026-11-18T11:40:15.421480102Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -744,7 +763,7 @@ entries:
     version: 0.4.4
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:53.197221107Z"
+    created: "2026-11-18T11:40:15.406441557Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -763,7 +782,7 @@ entries:
     version: 0.4.3
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:53.182384566Z"
+    created: "2026-11-18T11:40:15.389347318Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -782,7 +801,7 @@ entries:
     version: 0.4.2
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:53.166136065Z"
+    created: "2026-11-18T11:40:15.375250573Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -801,7 +820,7 @@ entries:
     version: 0.4.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:53.152668354Z"
+    created: "2026-11-18T11:40:15.360009605Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -820,7 +839,7 @@ entries:
     version: 0.3.9
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:53.138027986Z"
+    created: "2026-11-18T11:40:15.342748163Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -839,7 +858,7 @@ entries:
     version: 0.3.8
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:53.121875957Z"
+    created: "2026-11-18T11:40:15.327727782Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -858,7 +877,7 @@ entries:
     version: 0.3.7
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:53.107537361Z"
+    created: "2026-11-18T11:40:15.310711159Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -877,7 +896,7 @@ entries:
     version: 0.3.6
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:53.090603524Z"
+    created: "2026-11-18T11:40:15.296551785Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -896,7 +915,7 @@ entries:
     version: 0.3.5
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:53.076648426Z"
+    created: "2026-11-18T11:40:15.281793578Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -915,7 +934,7 @@ entries:
     version: 0.3.4
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:53.062226227Z"
+    created: "2026-11-18T11:40:15.266607257Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -934,7 +953,7 @@ entries:
     version: 0.3.3
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:53.046750975Z"
+    created: "2026-11-18T11:40:15.249891192Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -953,7 +972,7 @@ entries:
     version: 0.3.2
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:53.031546719Z"
+    created: "2026-11-18T11:40:15.234300007Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -972,7 +991,7 @@ entries:
     version: 0.3.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:53.017857575Z"
+    created: "2026-11-18T11:40:15.219231275Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -991,7 +1010,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:53.002574023Z"
+    created: "2026-11-18T11:40:15.202291088Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1010,7 +1029,7 @@ entries:
     version: 0.2.9
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.986065668Z"
+    created: "2026-11-18T11:40:15.188301402Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1029,7 +1048,7 @@ entries:
     version: 0.2.8
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.972152445Z"
+    created: "2026-11-18T11:40:15.174009306Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1048,7 +1067,7 @@ entries:
     version: 0.2.7
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.958513446Z"
+    created: "2026-11-18T11:40:15.158756737Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1067,7 +1086,7 @@ entries:
     version: 0.2.6
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.943440332Z"
+    created: "2026-11-18T11:40:15.141610222Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1086,7 +1105,7 @@ entries:
     version: 0.2.5
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.929261518Z"
+    created: "2026-11-18T11:40:15.127078352Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1105,7 +1124,7 @@ entries:
     version: 0.2.3
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.915771575Z"
+    created: "2026-11-18T11:40:15.113204384Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1124,7 +1143,7 @@ entries:
     version: 0.2.2
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.899991475Z"
+    created: "2026-11-18T11:40:15.098329822Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1143,7 +1162,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.886544293Z"
+    created: "2026-11-18T11:40:15.080349021Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1162,7 +1181,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.774456314Z"
+    created: "2026-11-18T11:40:15.008290131Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1181,7 +1200,7 @@ entries:
     version: 0.1.56
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.761171341Z"
+    created: "2026-11-18T11:40:14.994019527Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1200,7 +1219,7 @@ entries:
     version: 0.1.55
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.74704824Z"
+    created: "2026-11-18T11:40:14.979289686Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1219,7 +1238,7 @@ entries:
     version: 0.1.54
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.731238466Z"
+    created: "2026-11-18T11:40:14.963142733Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1238,7 +1257,7 @@ entries:
     version: 0.1.53
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.717123788Z"
+    created: "2026-11-18T11:40:14.94939844Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1257,7 +1276,7 @@ entries:
     version: 0.1.52
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.702483923Z"
+    created: "2026-11-18T11:40:14.93573157Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1276,7 +1295,7 @@ entries:
     version: 0.1.51
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.684964415Z"
+    created: "2026-11-18T11:40:14.921448782Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1295,7 +1314,7 @@ entries:
     version: 0.1.50
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.653981975Z"
+    created: "2026-11-18T11:40:14.893280426Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1314,7 +1333,7 @@ entries:
     version: 0.1.49
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.634216907Z"
+    created: "2026-11-18T11:40:14.879923703Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1333,7 +1352,7 @@ entries:
     version: 0.1.48
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.619538238Z"
+    created: "2026-11-18T11:40:14.86265889Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1352,7 +1371,7 @@ entries:
     version: 0.1.47
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.60648625Z"
+    created: "2026-11-18T11:40:14.846363768Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1371,7 +1390,7 @@ entries:
     version: 0.1.46
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.592427939Z"
+    created: "2026-11-18T11:40:14.832818189Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1390,7 +1409,7 @@ entries:
     version: 0.1.43
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.576985429Z"
+    created: "2026-11-18T11:40:14.81902795Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1409,7 +1428,7 @@ entries:
     version: 0.1.42
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.564111392Z"
+    created: "2026-11-18T11:40:14.804740104Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1428,7 +1447,7 @@ entries:
     version: 0.1.41
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.550274315Z"
+    created: "2026-11-18T11:40:14.788438229Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1447,7 +1466,7 @@ entries:
     version: 0.1.40
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.522514364Z"
+    created: "2026-11-18T11:40:14.759572395Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1466,7 +1485,7 @@ entries:
     version: 0.1.39
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.509219073Z"
+    created: "2026-11-18T11:40:14.733610868Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1485,7 +1504,7 @@ entries:
     version: 0.1.38
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.495637018Z"
+    created: "2026-11-18T11:40:14.714869313Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1504,7 +1523,7 @@ entries:
     version: 0.1.37
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.480266464Z"
+    created: "2026-11-18T11:40:14.698416001Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1523,7 +1542,7 @@ entries:
     version: 0.1.36
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.467394149Z"
+    created: "2026-11-18T11:40:14.683267009Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1542,7 +1561,7 @@ entries:
     version: 0.1.35
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.454430617Z"
+    created: "2026-11-18T11:40:14.669943279Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1561,7 +1580,7 @@ entries:
     version: 0.1.34
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.440059512Z"
+    created: "2026-11-18T11:40:14.655847383Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1580,7 +1599,7 @@ entries:
     version: 0.1.33
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.425450316Z"
+    created: "2026-11-18T11:40:14.639757419Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1599,7 +1618,7 @@ entries:
     version: 0.1.32
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.412536324Z"
+    created: "2026-11-18T11:40:14.626300918Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1618,7 +1637,7 @@ entries:
     version: 0.1.31
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.399045711Z"
+    created: "2026-11-18T11:40:14.611118962Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1637,7 +1656,7 @@ entries:
     version: 0.1.30
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.370438775Z"
+    created: "2026-11-18T11:40:14.581567949Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1656,7 +1675,7 @@ entries:
     version: 0.1.29
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.357642363Z"
+    created: "2026-11-18T11:40:14.568479884Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1675,7 +1694,7 @@ entries:
     version: 0.1.28
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.344142099Z"
+    created: "2026-11-18T11:40:14.554734166Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1694,7 +1713,7 @@ entries:
     version: 0.1.27
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.329151252Z"
+    created: "2026-11-18T11:40:14.538596141Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1713,7 +1732,7 @@ entries:
     version: 0.1.26
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.316619473Z"
+    created: "2026-11-18T11:40:14.522771213Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1732,7 +1751,7 @@ entries:
     version: 0.1.25
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.303730539Z"
+    created: "2026-11-18T11:40:14.509453997Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1751,7 +1770,7 @@ entries:
     version: 0.1.24
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.290493036Z"
+    created: "2026-11-18T11:40:14.496429772Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1770,7 +1789,7 @@ entries:
     version: 0.1.23
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.275370372Z"
+    created: "2026-11-18T11:40:14.482784585Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1789,7 +1808,7 @@ entries:
     version: 0.1.22
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.262569833Z"
+    created: "2026-11-18T11:40:14.469538309Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1808,7 +1827,7 @@ entries:
     version: 0.1.21
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.249935844Z"
+    created: "2026-11-18T11:40:14.455444647Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1827,7 +1846,7 @@ entries:
     version: 0.1.20
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.221184637Z"
+    created: "2026-11-18T11:40:14.426911474Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1846,7 +1865,7 @@ entries:
     version: 0.1.19
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.208560979Z"
+    created: "2026-11-18T11:40:14.413666961Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1865,7 +1884,7 @@ entries:
     version: 0.1.18
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.19583157Z"
+    created: "2026-11-18T11:40:14.400544049Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1884,7 +1903,7 @@ entries:
     version: 0.1.17
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.179615861Z"
+    created: "2026-11-18T11:40:14.386783194Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1903,7 +1922,7 @@ entries:
     version: 0.1.16
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.156425964Z"
+    created: "2026-11-18T11:40:14.37209333Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1922,7 +1941,7 @@ entries:
     version: 0.1.15
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.136538186Z"
+    created: "2026-11-18T11:40:14.358302888Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1941,7 +1960,7 @@ entries:
     version: 0.1.14
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.121115854Z"
+    created: "2026-11-18T11:40:14.345695228Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1960,7 +1979,7 @@ entries:
     version: 0.1.13
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.094328486Z"
+    created: "2026-11-18T11:40:14.332523296Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1979,7 +1998,7 @@ entries:
     version: 0.1.12
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.073302568Z"
+    created: "2026-11-18T11:40:14.318497891Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1998,7 +2017,7 @@ entries:
     version: 0.1.11
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.06069161Z"
+    created: "2026-11-18T11:40:14.30260162Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2017,7 +2036,7 @@ entries:
     version: 0.1.10
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.872605993Z"
+    created: "2026-11-18T11:40:15.065231036Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2036,7 +2055,7 @@ entries:
     version: 0.1.9
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.851799325Z"
+    created: "2026-11-18T11:40:15.052156498Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2055,7 +2074,7 @@ entries:
     version: 0.1.8
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.824312925Z"
+    created: "2026-11-18T11:40:15.036508974Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2074,7 +2093,7 @@ entries:
     version: 0.1.7
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.796078873Z"
+    created: "2026-11-18T11:40:15.020874818Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2093,7 +2112,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.671874088Z"
+    created: "2026-11-18T11:40:14.905628104Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2112,7 +2131,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.53465283Z"
+    created: "2026-11-18T11:40:14.775151195Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2131,7 +2150,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.38433779Z"
+    created: "2026-11-18T11:40:14.597092149Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2150,7 +2169,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.236170927Z"
+    created: "2026-11-18T11:40:14.439702269Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2169,7 +2188,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.047877946Z"
+    created: "2026-11-18T11:40:14.289628791Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2188,7 +2207,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-17T18:02:52.032963722Z"
+    created: "2026-11-18T11:40:14.275614119Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2208,7 +2227,7 @@ entries:
   argonix-crd:
   - apiVersion: v2
     appVersion: 0.1.22
-    created: "2026-11-17T18:02:53.798792875Z"
+    created: "2026-11-18T11:40:16.069784032Z"
     description: A Helm chart for the Argonix Kubernetes CRD controller
     digest: 23f16e990189c5c4efa47dd148a321a59b8937cc6ae79c1b58af50cfd036dc09
     home: https://github.com/argonix-io/kubernetes-crd
@@ -2229,7 +2248,7 @@ entries:
     version: 0.1.22
   - apiVersion: v2
     appVersion: 0.1.20
-    created: "2026-11-17T18:02:53.797887699Z"
+    created: "2026-11-18T11:40:16.068858687Z"
     description: A Helm chart for the Argonix Kubernetes CRD controller
     digest: c291a77aba44ed39ce56f3567102146a496f04c8da7cd3cfa53678d9e22f9322
     home: https://github.com/argonix-io/kubernetes-crd
@@ -2250,7 +2269,7 @@ entries:
     version: 0.1.20
   - apiVersion: v2
     appVersion: 0.1.14
-    created: "2026-11-17T18:02:53.797151368Z"
+    created: "2026-11-18T11:40:16.068051425Z"
     description: A Helm chart for the Argonix Kubernetes CRD controller
     digest: 10d148ab1ee3a8d3d3f5a88dc9519ed61d7052b2b838bf7512c7258c83f4e583
     home: https://github.com/argonix-io/kubernetes-crd
@@ -2271,7 +2290,7 @@ entries:
     version: 0.1.14
   - apiVersion: v2
     appVersion: 0.1.13
-    created: "2026-11-17T18:02:53.796607956Z"
+    created: "2026-11-18T11:40:16.067483614Z"
     description: A Helm chart for the Argonix Kubernetes CRD controller
     digest: 8c7fb6afe7b7bb57c5884610c7f8e7aca089ebf9db3c609a95badec55a286881
     home: https://github.com/argonix-io/kubernetes-crd
@@ -2292,7 +2311,7 @@ entries:
     version: 0.1.13
   - apiVersion: v2
     appVersion: 0.1.12
-    created: "2026-11-17T18:02:53.796036301Z"
+    created: "2026-11-18T11:40:16.066930141Z"
     description: A Helm chart for the Argonix Kubernetes CRD controller
     digest: d30a4f0aa7ef6c4baed36db8381aa34b9d98a9be6cf5a85afae9589545b6ebdc
     home: https://github.com/argonix-io/kubernetes-crd
@@ -2313,7 +2332,7 @@ entries:
     version: 0.1.12
   - apiVersion: v2
     appVersion: 0.1.11
-    created: "2026-11-17T18:02:53.795497878Z"
+    created: "2026-11-18T11:40:16.06636227Z"
     description: A Helm chart for the Argonix Kubernetes CRD controller
     digest: cf56071d7fa385d500d7ae5a8e6279ed07e02d98bf29578d597ad74ccfe1eb0c
     home: https://github.com/argonix-io/kubernetes-crd
@@ -2334,7 +2353,7 @@ entries:
     version: 0.1.11
   - apiVersion: v2
     appVersion: 0.1.10
-    created: "2026-11-17T18:02:53.794887562Z"
+    created: "2026-11-18T11:40:16.065797676Z"
     description: A Helm chart for the Argonix Kubernetes CRD controller
     digest: ed898dad23be3b24816041b57b1e6c7292088368c47359b606e61a60ec46e613
     home: https://github.com/argonix-io/kubernetes-crd
@@ -2355,7 +2374,7 @@ entries:
     version: 0.1.10
   - apiVersion: v2
     appVersion: 0.1.9
-    created: "2026-11-17T18:02:53.800193283Z"
+    created: "2026-11-18T11:40:16.071208577Z"
     description: A Helm chart for the Argonix Kubernetes CRD controller
     digest: bc451e74580c7a96193cee34d9f219041fbd4a8cb7e61acf01911cff3a098b5a
     home: https://github.com/argonix-io/kubernetes-crd
@@ -2376,7 +2395,7 @@ entries:
     version: 0.1.9
   - apiVersion: v2
     appVersion: 0.1.6
-    created: "2026-11-17T18:02:53.799728547Z"
+    created: "2026-11-18T11:40:16.070738481Z"
     description: A Helm chart for the Argonix Kubernetes CRD controller
     digest: 0caf66a18684326d322a1841b53fefdcc649e6e67e625476e939fbaca34beca1
     home: https://github.com/argonix-io/kubernetes-crd
@@ -2397,7 +2416,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: 0.1.3
-    created: "2026-11-17T18:02:53.799269232Z"
+    created: "2026-11-18T11:40:16.07026037Z"
     description: A Helm chart for the Argonix Kubernetes CRD controller
     digest: 52da75a39ff1caabd7c83ac05283bababb24df9e01df1431f21c4067f6fe2b16
     home: https://github.com/argonix-io/kubernetes-crd
@@ -2419,7 +2438,7 @@ entries:
   argonix-sensor:
   - apiVersion: v2
     appVersion: 0.8.2
-    created: "2026-11-17T18:02:53.968855494Z"
+    created: "2026-11-18T11:40:16.250493137Z"
     dependencies:
     - condition: tetragon.enabled
       name: tetragon
@@ -2434,7 +2453,7 @@ entries:
     version: 0.8.2
   - apiVersion: v2
     appVersion: 0.8.1
-    created: "2026-11-17T18:02:53.963470754Z"
+    created: "2026-11-18T11:40:16.245600061Z"
     dependencies:
     - condition: tetragon.enabled
       name: tetragon
@@ -2449,7 +2468,7 @@ entries:
     version: 0.8.1
   - apiVersion: v2
     appVersion: 0.8.0
-    created: "2026-11-17T18:02:53.959927896Z"
+    created: "2026-11-18T11:40:16.240356736Z"
     dependencies:
     - condition: tetragon.enabled
       name: tetragon
@@ -2464,7 +2483,7 @@ entries:
     version: 0.8.0
   - apiVersion: v2
     appVersion: 0.7.10
-    created: "2026-11-17T18:02:53.91932042Z"
+    created: "2026-11-18T11:40:16.197338831Z"
     dependencies:
     - condition: tetragon.enabled
       name: tetragon
@@ -2479,7 +2498,7 @@ entries:
     version: 0.7.10
   - apiVersion: v2
     appVersion: 0.7.9
-    created: "2026-11-17T18:02:53.954479028Z"
+    created: "2026-11-18T11:40:16.234600361Z"
     dependencies:
     - condition: tetragon.enabled
       name: tetragon
@@ -2494,7 +2513,7 @@ entries:
     version: 0.7.9
   - apiVersion: v2
     appVersion: 0.7.8
-    created: "2026-11-17T18:02:53.951075309Z"
+    created: "2026-11-18T11:40:16.231001926Z"
     dependencies:
     - condition: tetragon.enabled
       name: tetragon
@@ -2509,7 +2528,7 @@ entries:
     version: 0.7.8
   - apiVersion: v2
     appVersion: 0.7.7
-    created: "2026-11-17T18:02:53.945663592Z"
+    created: "2026-11-18T11:40:16.225279267Z"
     dependencies:
     - condition: tetragon.enabled
       name: tetragon
@@ -2524,7 +2543,7 @@ entries:
     version: 0.7.7
   - apiVersion: v2
     appVersion: 0.7.6
-    created: "2026-11-17T18:02:53.942250275Z"
+    created: "2026-11-18T11:40:16.221575033Z"
     dependencies:
     - condition: tetragon.enabled
       name: tetragon
@@ -2539,7 +2558,7 @@ entries:
     version: 0.7.6
   - apiVersion: v2
     appVersion: 0.7.5
-    created: "2026-11-17T18:02:53.936797679Z"
+    created: "2026-11-18T11:40:16.215899943Z"
     dependencies:
     - condition: tetragon.enabled
       name: tetragon
@@ -2554,7 +2573,7 @@ entries:
     version: 0.7.5
   - apiVersion: v2
     appVersion: 0.7.4
-    created: "2026-11-17T18:02:53.933404329Z"
+    created: "2026-11-18T11:40:16.212304084Z"
     dependencies:
     - condition: tetragon.enabled
       name: tetragon
@@ -2569,7 +2588,7 @@ entries:
     version: 0.7.4
   - apiVersion: v2
     appVersion: 0.7.3
-    created: "2026-11-17T18:02:53.927965943Z"
+    created: "2026-11-18T11:40:16.206554897Z"
     dependencies:
     - condition: tetragon.enabled
       name: tetragon
@@ -2584,7 +2603,7 @@ entries:
     version: 0.7.3
   - apiVersion: v2
     appVersion: 0.7.2
-    created: "2026-11-17T18:02:53.924602749Z"
+    created: "2026-11-18T11:40:16.202979165Z"
     dependencies:
     - condition: tetragon.enabled
       name: tetragon
@@ -2599,7 +2618,7 @@ entries:
     version: 0.7.2
   - apiVersion: v2
     appVersion: 0.7.1
-    created: "2026-11-17T18:02:53.915725625Z"
+    created: "2026-11-18T11:40:16.193550639Z"
     dependencies:
     - condition: tetragon.enabled
       name: tetragon
@@ -2614,7 +2633,7 @@ entries:
     version: 0.7.1
   - apiVersion: v2
     appVersion: 0.7.0
-    created: "2026-11-17T18:02:53.910341539Z"
+    created: "2026-11-18T11:40:16.188011836Z"
     dependencies:
     - condition: tetragon.enabled
       name: tetragon
@@ -2629,7 +2648,7 @@ entries:
     version: 0.7.0
   - apiVersion: v2
     appVersion: 0.6.9
-    created: "2026-11-17T18:02:53.907067402Z"
+    created: "2026-11-18T11:40:16.184576929Z"
     dependencies:
     - condition: tetragon.enabled
       name: tetragon
@@ -2644,7 +2663,7 @@ entries:
     version: 0.6.9
   - apiVersion: v2
     appVersion: 0.6.8
-    created: "2026-11-17T18:02:53.901845385Z"
+    created: "2026-11-18T11:40:16.178916826Z"
     dependencies:
     - condition: tetragon.enabled
       name: tetragon
@@ -2659,7 +2678,7 @@ entries:
     version: 0.6.8
   - apiVersion: v2
     appVersion: 0.6.7
-    created: "2026-11-17T18:02:53.898543485Z"
+    created: "2026-11-18T11:40:16.175561029Z"
     dependencies:
     - condition: tetragon.enabled
       name: tetragon
@@ -2674,7 +2693,7 @@ entries:
     version: 0.6.7
   - apiVersion: v2
     appVersion: 0.6.6
-    created: "2026-11-17T18:02:53.893133933Z"
+    created: "2026-11-18T11:40:16.170107287Z"
     dependencies:
     - condition: tetragon.enabled
       name: tetragon
@@ -2689,7 +2708,7 @@ entries:
     version: 0.6.6
   - apiVersion: v2
     appVersion: 0.6.5
-    created: "2026-11-17T18:02:53.889966123Z"
+    created: "2026-11-18T11:40:16.166826471Z"
     dependencies:
     - condition: tetragon.enabled
       name: tetragon
@@ -2704,7 +2723,7 @@ entries:
     version: 0.6.5
   - apiVersion: v2
     appVersion: 0.6.2
-    created: "2026-11-17T18:02:53.88483749Z"
+    created: "2026-11-18T11:40:16.161363002Z"
     dependencies:
     - condition: tetragon.enabled
       name: tetragon
@@ -2719,7 +2738,7 @@ entries:
     version: 0.6.2
   - apiVersion: v2
     appVersion: 0.6.0
-    created: "2026-11-17T18:02:53.881717429Z"
+    created: "2026-11-18T11:40:16.15811573Z"
     dependencies:
     - condition: tetragon.enabled
       name: tetragon
@@ -2734,7 +2753,7 @@ entries:
     version: 0.6.1
   - apiVersion: v2
     appVersion: 0.6.0
-    created: "2026-11-17T18:02:53.876511175Z"
+    created: "2026-11-18T11:40:16.152705179Z"
     dependencies:
     - condition: tetragon.enabled
       name: tetragon
@@ -2749,7 +2768,7 @@ entries:
     version: 0.6.0
   - apiVersion: v2
     appVersion: 0.5.3
-    created: "2026-11-17T18:02:53.873426991Z"
+    created: "2026-11-18T11:40:16.149543348Z"
     dependencies:
     - condition: tetragon.enabled
       name: tetragon
@@ -2764,7 +2783,7 @@ entries:
     version: 0.5.3
   - apiVersion: v2
     appVersion: 0.5.2
-    created: "2026-11-17T18:02:53.868311544Z"
+    created: "2026-11-18T11:40:16.144089385Z"
     dependencies:
     - condition: tetragon.enabled
       name: tetragon
@@ -2779,7 +2798,7 @@ entries:
     version: 0.5.2
   - apiVersion: v2
     appVersion: 0.5.1
-    created: "2026-11-17T18:02:53.865224896Z"
+    created: "2026-11-18T11:40:16.140896736Z"
     dependencies:
     - condition: tetragon.enabled
       name: tetragon
@@ -2794,7 +2813,7 @@ entries:
     version: 0.5.1
   - apiVersion: v2
     appVersion: 0.5.0
-    created: "2026-11-17T18:02:53.859978114Z"
+    created: "2026-11-18T11:40:16.134793858Z"
     dependencies:
     - condition: tetragon.enabled
       name: tetragon
@@ -2809,7 +2828,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 0.2.1
-    created: "2026-11-17T18:02:53.856745093Z"
+    created: "2026-11-18T11:40:16.131539001Z"
     dependencies:
     - condition: tetragon.enabled
       name: tetragon
@@ -2824,7 +2843,7 @@ entries:
     version: 0.2.2
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2026-11-17T18:02:53.851562581Z"
+    created: "2026-11-18T11:40:16.125287765Z"
     dependencies:
     - condition: tetragon.enabled
       name: tetragon
@@ -2839,7 +2858,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2026-11-17T18:02:53.848548258Z"
+    created: "2026-11-18T11:40:16.122044981Z"
     dependencies:
     - condition: tetragon.enabled
       name: tetragon
@@ -2854,7 +2873,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.1.7
-    created: "2026-11-17T18:02:53.842486238Z"
+    created: "2026-11-18T11:40:16.116706035Z"
     dependencies:
     - condition: tetragon.enabled
       name: tetragon
@@ -2869,7 +2888,7 @@ entries:
     version: 0.1.9
   - apiVersion: v2
     appVersion: 0.1.6
-    created: "2026-11-17T18:02:53.839511057Z"
+    created: "2026-11-18T11:40:16.113541469Z"
     dependencies:
     - condition: tetragon.enabled
       name: tetragon
@@ -2884,7 +2903,7 @@ entries:
     version: 0.1.8
   - apiVersion: v2
     appVersion: 0.1.5
-    created: "2026-11-17T18:02:53.834017985Z"
+    created: "2026-11-18T11:40:16.10831236Z"
     dependencies:
     - condition: tetragon.enabled
       name: tetragon
@@ -2899,7 +2918,7 @@ entries:
     version: 0.1.7
   - apiVersion: v2
     appVersion: 0.1.4
-    created: "2026-11-17T18:02:53.831135166Z"
+    created: "2026-11-18T11:40:16.105222735Z"
     dependencies:
     - condition: tetragon.enabled
       name: tetragon
@@ -2914,7 +2933,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: 0.1.3
-    created: "2026-11-17T18:02:53.825784142Z"
+    created: "2026-11-18T11:40:16.09947614Z"
     dependencies:
     - condition: tetragon.enabled
       name: tetragon
@@ -2929,7 +2948,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 0.1.2
-    created: "2026-11-17T18:02:53.822801047Z"
+    created: "2026-11-18T11:40:16.094977779Z"
     dependencies:
     - condition: tetragon.enabled
       name: tetragon
@@ -2944,7 +2963,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2026-11-17T18:02:53.817520693Z"
+    created: "2026-11-18T11:40:16.089145313Z"
     dependencies:
     - condition: tetragon.enabled
       name: tetragon
@@ -2959,7 +2978,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2026-11-17T18:02:53.814166977Z"
+    created: "2026-11-18T11:40:16.08615239Z"
     dependencies:
     - condition: tetragon.enabled
       name: tetragon
@@ -2974,7 +2993,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2026-11-17T18:02:53.808794892Z"
+    created: "2026-11-18T11:40:16.080518931Z"
     dependencies:
     - condition: tetragon.enabled
       name: tetragon
@@ -2989,7 +3008,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2026-11-17T18:02:53.805274145Z"
+    created: "2026-11-18T11:40:16.077117127Z"
     dependencies:
     - condition: tetragon.enabled
       name: tetragon
@@ -3002,4 +3021,4 @@ entries:
     urls:
     - https://charts.argonix.io/argonix-sensor-0.1.0.tgz
     version: 0.1.0
-generated: "2026-11-17T18:02:52.018213542Z"
+generated: "2026-11-18T11:40:14.258093666Z"
