@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "api": {
-    "version": "0.8.23"
+    "version": "0.8.28"
   },
   "sensor": {
     "version": "0.8.5"
